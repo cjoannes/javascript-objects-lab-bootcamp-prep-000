@@ -1,4 +1,4 @@
-var recipes = new Object({ prop: 1 })
+var recipes = new Object({ prop: 1, prop2: 1 })
 function updateObjectWithKeyAndValue(object, key, value) { return Object.assign({}, object, { [key]: value }) }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) { var prop2 = 2; recipes.prop2 = '2'; return recipes }
 function deleteFromObjectByKey(object, key) { return delete Object.key }
